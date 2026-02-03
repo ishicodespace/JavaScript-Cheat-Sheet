@@ -24,7 +24,7 @@ const filteredStructure = computed(() => {
   if (!query) return categories.value
 
   return categories.value.map(cat => {
-    const matchingPages = cat.pages.filter(page => {
+    const matchingPages = cat.pages.filter((page: any) => {
       const inTitle = page.title.toLowerCase().includes(query)
       const inContent = page.content.toLowerCase().includes(query)
       return inTitle || inContent
