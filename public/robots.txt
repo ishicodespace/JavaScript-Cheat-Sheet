@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-
-# Sitemap
-Sitemap: https://ishicodespace.github.io/JavaScript-Cheat-Sheet/sitemap.xml
